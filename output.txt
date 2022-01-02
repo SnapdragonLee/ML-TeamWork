@@ -1,0 +1,204 @@
+36206it [00:01, 28872.90it/s]
+Some weights of the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment were not used when initializing RobertaModel: ['classifier.out_proj.bias', 'classifier.dense.weight', 'classifier.out_proj.weight', 'classifier.dense.bias']
+- This IS expected if you are initializing RobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaModel were not initialized from the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment were not used when initializing BertModel: ['roberta.encoder.layer.3.attention.output.dense.weight', 'roberta.encoder.layer.9.attention.output.dense.bias', 'roberta.encoder.layer.5.attention.self.key.bias', 'roberta.encoder.layer.2.attention.output.LayerNorm.weight', 'roberta.encoder.layer.9.attention.self.query.weight', 'roberta.encoder.layer.11.attention.self.value.weight', 'roberta.encoder.layer.4.output.dense.bias', 'roberta.encoder.layer.5.attention.output.dense.weight', 'roberta.encoder.layer.10.attention.self.query.weight', 'roberta.encoder.layer.11.attention.self.key.bias', 'roberta.encoder.layer.10.attention.self.query.bias', 'roberta.encoder.layer.7.attention.self.query.weight', 'roberta.embeddings.word_embeddings.weight', 'roberta.encoder.layer.0.attention.output.dense.weight', 'roberta.encoder.layer.2.output.dense.bias', 'roberta.encoder.layer.6.attention.output.dense.weight', 'classifier.out_proj.bias', 'roberta.encoder.layer.5.attention.self.query.bias', 'classifier.out_proj.weight', 'roberta.encoder.layer.5.attention.self.key.weight', 'roberta.encoder.layer.0.attention.output.dense.bias', 'roberta.encoder.layer.8.attention.self.key.weight', 'roberta.encoder.layer.1.attention.output.dense.bias', 'roberta.encoder.layer.1.attention.self.key.weight', 'roberta.encoder.layer.7.output.dense.weight', 'roberta.encoder.layer.10.attention.output.LayerNorm.weight', 'roberta.encoder.layer.11.attention.self.key.weight', 'roberta.encoder.layer.8.intermediate.dense.weight', 'roberta.encoder.layer.10.output.dense.bias', 'roberta.encoder.layer.4.intermediate.dense.bias', 'roberta.encoder.layer.4.output.LayerNorm.bias', 'roberta.encoder.layer.0.attention.self.value.weight', 'roberta.encoder.layer.11.attention.self.query.bias', 'roberta.encoder.layer.7.attention.self.value.weight', 'roberta.encoder.layer.5.output.dense.weight', 'roberta.encoder.layer.7.output.LayerNorm.bias', 'roberta.encoder.layer.10.attention.self.key.weight', 'roberta.encoder.layer.0.output.dense.bias', 'roberta.encoder.layer.6.output.LayerNorm.weight', 'roberta.encoder.layer.11.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.attention.self.value.weight', 'roberta.encoder.layer.5.intermediate.dense.bias', 'roberta.encoder.layer.9.intermediate.dense.bias', 'roberta.encoder.layer.9.attention.output.LayerNorm.bias', 'roberta.encoder.layer.8.attention.self.value.weight', 'roberta.encoder.layer.2.attention.self.query.bias', 'roberta.encoder.layer.8.attention.output.LayerNorm.bias', 'roberta.embeddings.token_type_embeddings.weight', 'roberta.encoder.layer.1.output.LayerNorm.bias', 'roberta.encoder.layer.0.intermediate.dense.weight', 'roberta.encoder.layer.9.output.dense.weight', 'roberta.encoder.layer.9.attention.self.query.bias', 'roberta.encoder.layer.0.attention.self.query.bias', 'roberta.encoder.layer.2.intermediate.dense.weight', 'roberta.encoder.layer.3.attention.self.value.bias', 'roberta.encoder.layer.3.output.LayerNorm.bias', 'roberta.encoder.layer.3.output.LayerNorm.weight', 'roberta.encoder.layer.1.output.dense.weight', 'roberta.encoder.layer.8.output.LayerNorm.bias', 'roberta.encoder.layer.11.output.dense.bias', 'roberta.encoder.layer.10.intermediate.dense.weight', 'roberta.encoder.layer.6.attention.self.key.weight', 'roberta.encoder.layer.2.output.dense.weight', 'roberta.encoder.layer.1.output.LayerNorm.weight', 'roberta.encoder.layer.1.output.dense.bias', 'roberta.encoder.layer.5.attention.output.LayerNorm.weight', 'roberta.encoder.layer.7.output.dense.bias', 'roberta.encoder.layer.3.attention.self.key.bias', 'roberta.encoder.layer.6.attention.self.query.weight', 'roberta.encoder.layer.4.attention.output.dense.bias', 'roberta.encoder.layer.7.output.LayerNorm.weight', 'roberta.encoder.layer.7.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.output.dense.weight', 'roberta.encoder.layer.8.attention.output.dense.bias', 'roberta.encoder.layer.2.attention.output.LayerNorm.bias', 'roberta.encoder.layer.2.attention.self.value.bias', 'roberta.encoder.layer.2.attention.output.dense.bias', 'roberta.encoder.layer.10.attention.self.value.bias', 'roberta.encoder.layer.11.attention.output.LayerNorm.bias', 'roberta.encoder.layer.3.attention.self.query.weight', 'roberta.encoder.layer.7.intermediate.dense.bias', 'roberta.encoder.layer.11.output.LayerNorm.weight', 'roberta.embeddings.LayerNorm.weight', 'roberta.encoder.layer.9.attention.output.LayerNorm.weight', 'roberta.encoder.layer.0.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.attention.self.query.weight', 'roberta.encoder.layer.0.output.LayerNorm.bias', 'roberta.encoder.layer.4.attention.self.query.bias', 'roberta.encoder.layer.9.attention.self.key.bias', 'roberta.encoder.layer.10.output.LayerNorm.bias', 'roberta.encoder.layer.4.attention.self.key.weight', 'roberta.encoder.layer.5.attention.output.LayerNorm.bias', 'roberta.encoder.layer.2.output.LayerNorm.weight', 'roberta.encoder.layer.5.intermediate.dense.weight', 'roberta.encoder.layer.10.output.LayerNorm.weight', 'roberta.encoder.layer.6.intermediate.dense.bias', 'roberta.encoder.layer.6.attention.self.query.bias', 'roberta.encoder.layer.5.attention.self.value.weight', 'roberta.encoder.layer.10.attention.output.dense.bias', 'roberta.encoder.layer.4.intermediate.dense.weight', 'roberta.encoder.layer.11.attention.self.value.bias', 'roberta.encoder.layer.8.output.dense.bias', 'roberta.encoder.layer.7.attention.self.value.bias', 'roberta.encoder.layer.11.intermediate.dense.bias', 'roberta.encoder.layer.6.output.dense.bias', 'roberta.encoder.layer.1.attention.output.LayerNorm.weight', 'roberta.encoder.layer.5.output.LayerNorm.weight', 'roberta.encoder.layer.5.attention.output.dense.bias', 'roberta.encoder.layer.2.intermediate.dense.bias', 'roberta.encoder.layer.6.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.attention.output.LayerNorm.bias', 'roberta.encoder.layer.9.intermediate.dense.weight', 'roberta.encoder.layer.11.intermediate.dense.weight', 'roberta.encoder.layer.1.attention.self.query.bias', 'roberta.encoder.layer.9.attention.self.key.weight', 'roberta.encoder.layer.2.attention.self.key.bias', 'roberta.encoder.layer.8.attention.self.value.bias', 'roberta.encoder.layer.1.attention.self.value.bias', 'roberta.encoder.layer.6.attention.output.LayerNorm.bias', 'roberta.encoder.layer.6.intermediate.dense.weight', 'roberta.encoder.layer.7.attention.self.query.bias', 'roberta.encoder.layer.6.output.LayerNorm.bias', 'roberta.encoder.layer.11.attention.self.query.weight', 'roberta.encoder.layer.6.attention.self.value.bias', 'roberta.encoder.layer.7.attention.output.dense.weight', 'roberta.encoder.layer.8.output.LayerNorm.weight', 'roberta.encoder.layer.1.attention.output.LayerNorm.bias', 'roberta.encoder.layer.3.attention.output.dense.bias', 'roberta.embeddings.position_embeddings.weight', 'roberta.encoder.layer.4.attention.output.LayerNorm.weight', 'roberta.encoder.layer.11.output.LayerNorm.bias', 'roberta.encoder.layer.1.intermediate.dense.weight', 'roberta.encoder.layer.3.intermediate.dense.weight', 'roberta.encoder.layer.3.output.dense.bias', 'roberta.encoder.layer.7.attention.output.dense.bias', 'roberta.encoder.layer.0.output.dense.weight', 'roberta.encoder.layer.6.attention.self.value.weight', 'roberta.encoder.layer.5.attention.self.query.weight', 'roberta.encoder.layer.7.attention.self.key.bias', 'roberta.encoder.layer.3.attention.self.query.bias', 'roberta.encoder.layer.7.attention.output.LayerNorm.bias', 'roberta.embeddings.LayerNorm.bias', 'roberta.encoder.layer.8.attention.self.key.bias', 'roberta.embeddings.position_ids', 'roberta.encoder.layer.11.output.dense.weight', 'roberta.encoder.layer.9.output.LayerNorm.weight', 'roberta.encoder.layer.1.attention.self.query.weight', 'roberta.encoder.layer.7.attention.self.key.weight', 'roberta.encoder.layer.0.attention.self.key.bias', 'roberta.encoder.layer.3.attention.output.LayerNorm.bias', 'classifier.dense.bias', 'roberta.encoder.layer.2.output.LayerNorm.bias', 'roberta.encoder.layer.5.output.dense.bias', 'roberta.encoder.layer.3.attention.self.key.weight', 'roberta.encoder.layer.0.attention.output.LayerNorm.bias', 'roberta.encoder.layer.3.output.dense.weight', 'roberta.encoder.layer.0.attention.self.query.weight', 'roberta.encoder.layer.4.attention.self.value.bias', 'roberta.encoder.layer.8.attention.output.LayerNorm.weight', 'roberta.encoder.layer.1.attention.output.dense.weight', 'roberta.encoder.layer.3.intermediate.dense.bias', 'roberta.encoder.layer.4.output.LayerNorm.weight', 'roberta.encoder.layer.9.attention.self.value.bias', 'roberta.encoder.layer.1.attention.self.key.bias', 'roberta.encoder.layer.10.attention.self.value.weight', 'roberta.encoder.layer.10.attention.output.dense.weight', 'roberta.encoder.layer.6.output.dense.weight', 'roberta.encoder.layer.0.attention.self.key.weight', 'roberta.encoder.layer.2.attention.output.dense.weight', 'roberta.encoder.layer.5.output.LayerNorm.bias', 'roberta.encoder.layer.10.attention.self.key.bias', 'roberta.encoder.layer.2.attention.self.key.weight', 'roberta.encoder.layer.10.attention.output.LayerNorm.bias', 'roberta.encoder.layer.10.output.dense.weight', 'roberta.encoder.layer.3.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.attention.output.dense.weight', 'roberta.encoder.layer.11.attention.output.dense.bias', 'roberta.encoder.layer.8.attention.self.query.weight', 'roberta.encoder.layer.9.output.dense.bias', 'roberta.encoder.layer.2.attention.self.query.weight', 'roberta.encoder.layer.2.attention.self.value.weight', 'roberta.encoder.layer.5.attention.self.value.bias', 'roberta.encoder.layer.4.attention.self.key.bias', 'roberta.encoder.layer.6.attention.output.dense.bias', 'roberta.encoder.layer.9.attention.output.dense.weight', 'classifier.dense.weight', 'roberta.encoder.layer.1.intermediate.dense.bias', 'roberta.encoder.layer.10.intermediate.dense.bias', 'roberta.encoder.layer.6.attention.self.key.bias', 'roberta.encoder.layer.11.attention.output.dense.weight', 'roberta.encoder.layer.8.intermediate.dense.bias', 'roberta.encoder.layer.8.output.dense.weight', 'roberta.encoder.layer.3.attention.self.value.weight', 'roberta.encoder.layer.8.attention.self.query.bias', 'roberta.encoder.layer.0.attention.self.value.bias', 'roberta.encoder.layer.0.intermediate.dense.bias', 'roberta.encoder.layer.8.attention.output.dense.weight', 'roberta.encoder.layer.9.attention.self.value.weight', 'roberta.encoder.layer.7.intermediate.dense.weight', 'roberta.encoder.layer.0.output.LayerNorm.weight', 'roberta.encoder.layer.9.output.LayerNorm.bias', 'roberta.encoder.layer.1.attention.self.value.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertModel were not initialized from the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment and are newly initialized: ['encoder.layer.6.attention.output.dense.weight', 'encoder.layer.10.attention.self.value.weight', 'encoder.layer.3.attention.self.value.bias', 'encoder.layer.1.output.LayerNorm.weight', 'encoder.layer.5.output.dense.weight', 'encoder.layer.1.intermediate.dense.weight', 'encoder.layer.7.attention.output.dense.bias', 'encoder.layer.4.attention.self.key.bias', 'encoder.layer.2.attention.self.query.bias', 'encoder.layer.11.attention.self.key.weight', 'encoder.layer.6.attention.output.LayerNorm.weight', 'encoder.layer.11.attention.self.query.bias', 'encoder.layer.2.attention.self.key.bias', 'encoder.layer.9.output.dense.weight', 'encoder.layer.10.attention.self.query.weight', 'encoder.layer.9.attention.self.query.weight', 'encoder.layer.9.output.dense.bias', 'encoder.layer.11.attention.output.dense.bias', 'encoder.layer.2.intermediate.dense.bias', 'encoder.layer.2.attention.self.key.weight', 'encoder.layer.10.attention.self.value.bias', 'encoder.layer.3.output.LayerNorm.weight', 'encoder.layer.11.attention.output.LayerNorm.weight', 'encoder.layer.10.output.LayerNorm.bias', 'encoder.layer.1.output.LayerNorm.bias', 'encoder.layer.9.output.LayerNorm.bias', 'encoder.layer.1.intermediate.dense.bias', 'encoder.layer.11.attention.output.dense.weight', 'encoder.layer.7.attention.self.query.weight', 'encoder.layer.3.output.LayerNorm.bias', 'encoder.layer.2.attention.output.dense.bias', 'encoder.layer.3.attention.output.dense.weight', 'encoder.layer.9.intermediate.dense.bias', 'encoder.layer.10.attention.self.key.weight', 'pooler.dense.bias', 'encoder.layer.3.output.dense.bias', 'encoder.layer.4.attention.self.value.weight', 'encoder.layer.0.output.LayerNorm.weight', 'encoder.layer.6.attention.self.value.weight', 'encoder.layer.9.attention.output.LayerNorm.weight', 'encoder.layer.4.attention.output.LayerNorm.weight', 'encoder.layer.0.attention.self.value.weight', 'encoder.layer.10.attention.output.LayerNorm.bias', 'encoder.layer.11.output.dense.bias', 'encoder.layer.2.output.dense.bias', 'encoder.layer.1.attention.self.key.bias', 'encoder.layer.1.attention.output.dense.bias', 'encoder.layer.5.attention.self.value.bias', 'encoder.layer.10.attention.self.query.bias', 'embeddings.LayerNorm.weight', 'encoder.layer.0.intermediate.dense.weight', 'encoder.layer.6.attention.self.key.weight', 'encoder.layer.8.output.dense.weight', 'embeddings.LayerNorm.bias', 'encoder.layer.8.output.dense.bias', 'encoder.layer.5.output.LayerNorm.bias', 'encoder.layer.6.intermediate.dense.weight', 'encoder.layer.11.intermediate.dense.weight', 'encoder.layer.11.output.LayerNorm.bias', 'pooler.dense.weight', 'encoder.layer.10.intermediate.dense.bias', 'encoder.layer.11.output.dense.weight', 'encoder.layer.1.attention.self.value.weight', 'encoder.layer.5.intermediate.dense.bias', 'encoder.layer.6.output.dense.weight', 'encoder.layer.3.attention.self.query.weight', 'encoder.layer.3.attention.self.key.weight', 'encoder.layer.4.attention.output.LayerNorm.bias', 'encoder.layer.11.attention.self.key.bias', 'encoder.layer.11.output.LayerNorm.weight', 'encoder.layer.4.attention.self.query.weight', 'encoder.layer.8.attention.self.key.weight', 'encoder.layer.8.attention.output.LayerNorm.bias', 'encoder.layer.2.attention.output.dense.weight', 'encoder.layer.1.attention.output.LayerNorm.weight', 'encoder.layer.7.attention.self.key.weight', 'encoder.layer.6.attention.self.key.bias', 'encoder.layer.7.attention.self.key.bias', 'encoder.layer.11.attention.output.LayerNorm.bias', 'encoder.layer.7.intermediate.dense.weight', 'embeddings.word_embeddings.weight', 'encoder.layer.7.attention.output.LayerNorm.bias', 'encoder.layer.2.output.LayerNorm.weight', 'encoder.layer.7.attention.self.value.weight', 'encoder.layer.10.attention.output.dense.weight', 'encoder.layer.9.attention.self.query.bias', 'encoder.layer.8.attention.self.query.bias', 'encoder.layer.11.intermediate.dense.bias', 'encoder.layer.0.attention.self.key.bias', 'encoder.layer.2.attention.output.LayerNorm.weight', 'encoder.layer.2.output.LayerNorm.bias', 'encoder.layer.2.attention.self.value.weight', 'encoder.layer.0.attention.output.dense.weight', 'encoder.layer.3.attention.self.query.bias', 'encoder.layer.10.output.dense.weight', 'encoder.layer.4.output.LayerNorm.weight', 'encoder.layer.8.attention.self.value.bias', 'encoder.layer.6.attention.self.query.bias', 'encoder.layer.5.attention.self.value.weight', 'encoder.layer.7.attention.self.value.bias', 'encoder.layer.7.intermediate.dense.bias', 'encoder.layer.10.output.LayerNorm.weight', 'encoder.layer.7.attention.self.query.bias', 'encoder.layer.6.intermediate.dense.bias', 'encoder.layer.5.attention.output.dense.bias', 'encoder.layer.9.attention.self.value.bias', 'encoder.layer.10.output.dense.bias', 'embeddings.position_embeddings.weight', 'encoder.layer.8.output.LayerNorm.bias', 'encoder.layer.4.attention.self.query.bias', 'encoder.layer.5.output.dense.bias', 'encoder.layer.8.output.LayerNorm.weight', 'encoder.layer.10.attention.output.LayerNorm.weight', 'encoder.layer.4.intermediate.dense.bias', 'encoder.layer.5.output.LayerNorm.weight', 'encoder.layer.6.attention.self.query.weight', 'encoder.layer.5.attention.output.dense.weight', 'encoder.layer.5.attention.output.LayerNorm.bias', 'encoder.layer.7.attention.output.dense.weight', 'encoder.layer.4.intermediate.dense.weight', 'encoder.layer.9.attention.output.dense.weight', 'encoder.layer.0.attention.output.dense.bias', 'encoder.layer.8.attention.self.value.weight', 'encoder.layer.2.output.dense.weight', 'encoder.layer.8.attention.self.query.weight', 'encoder.layer.7.output.LayerNorm.bias', 'encoder.layer.9.output.LayerNorm.weight', 'encoder.layer.8.intermediate.dense.bias', 'encoder.layer.0.attention.output.LayerNorm.weight', 'encoder.layer.0.intermediate.dense.bias', 'encoder.layer.4.output.dense.weight', 'encoder.layer.9.intermediate.dense.weight', 'encoder.layer.3.attention.self.value.weight', 'encoder.layer.8.attention.self.key.bias', 'encoder.layer.10.attention.self.key.bias', 'encoder.layer.4.attention.self.value.bias', 'encoder.layer.6.output.LayerNorm.weight', 'encoder.layer.4.output.dense.bias', 'encoder.layer.7.output.LayerNorm.weight', 'encoder.layer.0.attention.self.query.bias', 'encoder.layer.6.attention.self.value.bias', 'encoder.layer.0.attention.self.value.bias', 'encoder.layer.6.output.LayerNorm.bias', 'encoder.layer.7.output.dense.bias', 'encoder.layer.1.attention.self.query.weight', 'encoder.layer.5.attention.self.key.bias', 'encoder.layer.8.intermediate.dense.weight', 'encoder.layer.11.attention.self.value.weight', 'encoder.layer.3.intermediate.dense.bias', 'encoder.layer.8.attention.output.dense.weight', 'encoder.layer.10.intermediate.dense.weight', 'encoder.layer.0.output.dense.weight', 'encoder.layer.6.attention.output.LayerNorm.bias', 'encoder.layer.3.attention.output.LayerNorm.weight', 'encoder.layer.9.attention.output.LayerNorm.bias', 'encoder.layer.0.attention.self.query.weight', 'encoder.layer.8.attention.output.LayerNorm.weight', 'encoder.layer.1.output.dense.bias', 'encoder.layer.2.attention.self.query.weight', 'encoder.layer.9.attention.self.value.weight', 'encoder.layer.6.output.dense.bias', 'encoder.layer.5.attention.self.query.bias', 'encoder.layer.1.attention.self.query.bias', 'encoder.layer.4.attention.output.dense.weight', 'encoder.layer.5.attention.self.key.weight', 'encoder.layer.11.attention.self.value.bias', 'encoder.layer.1.attention.self.key.weight', 'encoder.layer.7.output.dense.weight', 'encoder.layer.11.attention.self.query.weight', 'encoder.layer.10.attention.output.dense.bias', 'encoder.layer.3.attention.output.LayerNorm.bias', 'encoder.layer.4.output.LayerNorm.bias', 'encoder.layer.1.attention.output.dense.weight', 'encoder.layer.3.attention.self.key.bias', 'encoder.layer.5.attention.self.query.weight', 'encoder.layer.4.attention.output.dense.bias', 'encoder.layer.9.attention.self.key.weight', 'encoder.layer.2.attention.output.LayerNorm.bias', 'encoder.layer.4.attention.self.key.weight', 'encoder.layer.6.attention.output.dense.bias', 'encoder.layer.2.intermediate.dense.weight', 'encoder.layer.9.attention.self.key.bias', 'encoder.layer.0.output.dense.bias', 'encoder.layer.3.intermediate.dense.weight', 'encoder.layer.1.output.dense.weight', 'encoder.layer.5.attention.output.LayerNorm.weight', 'encoder.layer.5.intermediate.dense.weight', 'encoder.layer.1.attention.self.value.bias', 'encoder.layer.1.attention.output.LayerNorm.bias', 'encoder.layer.0.attention.self.key.weight', 'encoder.layer.0.output.LayerNorm.bias', 'embeddings.token_type_embeddings.weight', 'encoder.layer.2.attention.self.value.bias', 'encoder.layer.0.attention.output.LayerNorm.bias', 'encoder.layer.3.attention.output.dense.bias', 'encoder.layer.3.output.dense.weight', 'encoder.layer.7.attention.output.LayerNorm.weight', 'encoder.layer.8.attention.output.dense.bias', 'encoder.layer.9.attention.output.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+C:\ProgramData\Anaconda3\lib\site-packages\transformers\tokenization_utils_base.py:2211: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+global step 100, epoch: 0, batch: 99, loss: 1.19046, speed: 6.85 step/s, lr: 0.0000099448
+global step 200, epoch: 0, batch: 199, loss: 1.13397, speed: 7.24 step/s, lr: 0.0000098895
+global step 300, epoch: 0, batch: 299, loss: 1.11570, speed: 7.38 step/s, lr: 0.0000098343
+global step 400, epoch: 0, batch: 399, loss: 1.10771, speed: 7.45 step/s, lr: 0.0000097790
+global step 500, epoch: 0, batch: 499, loss: 1.09657, speed: 7.48 step/s, lr: 0.0000097238
+global step 600, epoch: 0, batch: 599, loss: 1.09062, speed: 7.51 step/s, lr: 0.0000096685
+global step 700, epoch: 0, batch: 699, loss: 1.08763, speed: 7.53 step/s, lr: 0.0000096133
+global step 800, epoch: 0, batch: 799, loss: 1.08454, speed: 7.55 step/s, lr: 0.0000095581
+global step 900, epoch: 0, batch: 899, loss: 1.08036, speed: 7.56 step/s, lr: 0.0000095028
+global step 1000, epoch: 0, batch: 999, loss: 1.07693, speed: 7.57 step/s, lr: 0.0000094476
+global step 1100, epoch: 0, batch: 1099, loss: 1.07410, speed: 7.58 step/s, lr: 0.0000093923
+global step 1200, epoch: 0, batch: 1199, loss: 1.07050, speed: 7.58 step/s, lr: 0.0000093371
+global step 1300, epoch: 0, batch: 1299, loss: 1.06704, speed: 7.59 step/s, lr: 0.0000092818
+global step 1400, epoch: 0, batch: 1399, loss: 1.06495, speed: 7.59 step/s, lr: 0.0000092266
+global step 1500, epoch: 0, batch: 1499, loss: 1.06269, speed: 7.60 step/s, lr: 0.0000091714
+global step 1600, epoch: 0, batch: 1599, loss: 1.05914, speed: 7.60 step/s, lr: 0.0000091161
+global step 1700, epoch: 0, batch: 1699, loss: 1.05648, speed: 7.60 step/s, lr: 0.0000090609
+global step 1800, epoch: 0, batch: 1799, loss: 1.05319, speed: 7.61 step/s, lr: 0.0000090056
+global step 1900, epoch: 0, batch: 1899, loss: 1.05049, speed: 7.61 step/s, lr: 0.0000089504
+global step 2000, epoch: 0, batch: 1999, loss: 1.04731, speed: 7.61 step/s, lr: 0.0000088951
+global step 2100, epoch: 0, batch: 2099, loss: 1.04486, speed: 7.62 step/s, lr: 0.0000088399
+global step 2200, epoch: 0, batch: 2199, loss: 1.04166, speed: 7.62 step/s, lr: 0.0000087847
+global step 2300, epoch: 0, batch: 2299, loss: 1.03965, speed: 7.62 step/s, lr: 0.0000087294
+global step 2400, epoch: 0, batch: 2399, loss: 1.03729, speed: 7.62 step/s, lr: 0.0000086742
+global step 2500, epoch: 0, batch: 2499, loss: 1.03561, speed: 7.62 step/s, lr: 0.0000086189
+global step 2600, epoch: 0, batch: 2599, loss: 1.03376, speed: 7.62 step/s, lr: 0.0000085637
+global step 2700, epoch: 0, batch: 2699, loss: 1.03164, speed: 7.62 step/s, lr: 0.0000085085
+global step 2800, epoch: 0, batch: 2799, loss: 1.02904, speed: 7.62 step/s, lr: 0.0000084532
+global step 2900, epoch: 0, batch: 2899, loss: 1.02686, speed: 7.62 step/s, lr: 0.0000083980
+global step 3000, epoch: 0, batch: 2999, loss: 1.02573, speed: 7.62 step/s, lr: 0.0000083427
+global step 3100, epoch: 0, batch: 3099, loss: 1.02374, speed: 7.62 step/s, lr: 0.0000082875
+global step 3200, epoch: 0, batch: 3199, loss: 1.02195, speed: 7.63 step/s, lr: 0.0000082322
+global step 3300, epoch: 0, batch: 3299, loss: 1.02046, speed: 7.63 step/s, lr: 0.0000081770
+global step 3400, epoch: 0, batch: 3399, loss: 1.01840, speed: 7.63 step/s, lr: 0.0000081218
+global step 3500, epoch: 0, batch: 3499, loss: 1.01668, speed: 7.63 step/s, lr: 0.0000080665
+global step 3600, epoch: 0, batch: 3599, loss: 1.01542, speed: 7.63 step/s, lr: 0.0000080113
+global step 3700, epoch: 0, batch: 3699, loss: 1.01404, speed: 7.63 step/s, lr: 0.0000079560
+global step 3800, epoch: 0, batch: 3799, loss: 1.01247, speed: 7.63 step/s, lr: 0.0000079008
+global step 3900, epoch: 0, batch: 3899, loss: 1.01152, speed: 7.63 step/s, lr: 0.0000078455
+global step 4000, epoch: 0, batch: 3999, loss: 1.01030, speed: 7.63 step/s, lr: 0.0000077903
+global step 4100, epoch: 0, batch: 4099, loss: 1.00858, speed: 7.63 step/s, lr: 0.0000077351
+global step 4200, epoch: 0, batch: 4199, loss: 1.00704, speed: 7.63 step/s, lr: 0.0000076798
+global step 4300, epoch: 0, batch: 4299, loss: 1.00595, speed: 7.63 step/s, lr: 0.0000076246
+global step 4400, epoch: 0, batch: 4399, loss: 1.00442, speed: 7.63 step/s, lr: 0.0000075693
+global step 4500, epoch: 0, batch: 4499, loss: 1.00308, speed: 7.63 step/s, lr: 0.0000075141
+global step 4600, epoch: 0, batch: 4599, loss: 1.00219, speed: 7.63 step/s, lr: 0.0000074588
+global step 4700, epoch: 0, batch: 4699, loss: 1.00100, speed: 7.63 step/s, lr: 0.0000074036
+global step 4800, epoch: 0, batch: 4799, loss: 0.99988, speed: 7.63 step/s, lr: 0.0000073484
+global step 4900, epoch: 0, batch: 4899, loss: 0.99850, speed: 7.63 step/s, lr: 0.0000072931
+global step 5000, epoch: 0, batch: 4999, loss: 0.99713, speed: 7.63 step/s, lr: 0.0000072379
+global step 5100, epoch: 0, batch: 5099, loss: 0.99575, speed: 7.63 step/s, lr: 0.0000071826
+global step 5200, epoch: 0, batch: 5199, loss: 0.99473, speed: 7.63 step/s, lr: 0.0000071274
+global step 5300, epoch: 0, batch: 5299, loss: 0.99391, speed: 7.63 step/s, lr: 0.0000070721
+global step 5400, epoch: 0, batch: 5399, loss: 0.99333, speed: 7.63 step/s, lr: 0.0000070169
+global step 5500, epoch: 0, batch: 5499, loss: 0.99195, speed: 7.63 step/s, lr: 0.0000069617
+global step 5600, epoch: 0, batch: 5599, loss: 0.99070, speed: 7.60 step/s, lr: 0.0000069064
+global step 5700, epoch: 0, batch: 5699, loss: 0.98966, speed: 7.60 step/s, lr: 0.0000068512
+global step 5800, epoch: 0, batch: 5799, loss: 0.98867, speed: 7.60 step/s, lr: 0.0000067959
+global step 5900, epoch: 0, batch: 5899, loss: 0.98749, speed: 7.60 step/s, lr: 0.0000067407
+global step 6000, epoch: 0, batch: 5999, loss: 0.98613, speed: 7.60 step/s, lr: 0.0000066854
+global step 6100, epoch: 0, batch: 6099, loss: 0.98515, speed: 7.60 step/s, lr: 0.0000066302
+global step 6200, epoch: 0, batch: 6199, loss: 0.98428, speed: 7.61 step/s, lr: 0.0000065750
+global step 6300, epoch: 0, batch: 6299, loss: 0.98332, speed: 7.61 step/s, lr: 0.0000065197
+global step 6400, epoch: 0, batch: 6399, loss: 0.98233, speed: 7.61 step/s, lr: 0.0000064645
+global step 6500, epoch: 0, batch: 6499, loss: 0.98134, speed: 7.61 step/s, lr: 0.0000064092
+global step 6600, epoch: 0, batch: 6599, loss: 0.98060, speed: 7.61 step/s, lr: 0.0000063540
+global step 6700, epoch: 0, batch: 6699, loss: 0.97985, speed: 7.61 step/s, lr: 0.0000062988
+global step 6800, epoch: 0, batch: 6799, loss: 0.97888, speed: 7.61 step/s, lr: 0.0000062435
+global step 6900, epoch: 0, batch: 6899, loss: 0.97804, speed: 7.61 step/s, lr: 0.0000061883
+global step 7000, epoch: 0, batch: 6999, loss: 0.97729, speed: 7.61 step/s, lr: 0.0000061330
+global step 7100, epoch: 0, batch: 7099, loss: 0.97626, speed: 7.61 step/s, lr: 0.0000060778
+global step 7200, epoch: 0, batch: 7199, loss: 0.97561, speed: 7.61 step/s, lr: 0.0000060225
+global step 7300, epoch: 0, batch: 7299, loss: 0.97485, speed: 7.61 step/s, lr: 0.0000059673
+global step 7400, epoch: 0, batch: 7399, loss: 0.97423, speed: 7.61 step/s, lr: 0.0000059121
+global step 7500, epoch: 0, batch: 7499, loss: 0.97349, speed: 7.61 step/s, lr: 0.0000058568
+global step 7600, epoch: 0, batch: 7599, loss: 0.97250, speed: 7.61 step/s, lr: 0.0000058016
+global step 7700, epoch: 0, batch: 7699, loss: 0.97200, speed: 7.61 step/s, lr: 0.0000057463
+global step 7800, epoch: 0, batch: 7799, loss: 0.97152, speed: 7.61 step/s, lr: 0.0000056911
+global step 7900, epoch: 0, batch: 7899, loss: 0.97089, speed: 7.61 step/s, lr: 0.0000056358
+global step 8000, epoch: 0, batch: 7999, loss: 0.96997, speed: 7.61 step/s, lr: 0.0000055806
+global step 8100, epoch: 0, batch: 8099, loss: 0.96941, speed: 7.61 step/s, lr: 0.0000055254
+global step 8200, epoch: 0, batch: 8199, loss: 0.96895, speed: 7.61 step/s, lr: 0.0000054701
+global step 8300, epoch: 0, batch: 8299, loss: 0.96804, speed: 7.62 step/s, lr: 0.0000054149
+global step 8400, epoch: 0, batch: 8399, loss: 0.96765, speed: 7.62 step/s, lr: 0.0000053596
+global step 8500, epoch: 0, batch: 8499, loss: 0.96716, speed: 7.62 step/s, lr: 0.0000053044
+global step 8600, epoch: 0, batch: 8599, loss: 0.96654, speed: 7.62 step/s, lr: 0.0000052491
+global step 8700, epoch: 0, batch: 8699, loss: 0.96595, speed: 7.62 step/s, lr: 0.0000051939
+global step 8800, epoch: 0, batch: 8799, loss: 0.96549, speed: 7.62 step/s, lr: 0.0000051387
+global step 8900, epoch: 0, batch: 8899, loss: 0.96466, speed: 7.62 step/s, lr: 0.0000050834
+global step 9000, epoch: 0, batch: 8999, loss: 0.96385, speed: 7.62 step/s, lr: 0.0000050282
+global step 9100, epoch: 1, batch: 48, loss: 0.88439, speed: 7.62 step/s, lr: 0.0000049729
+global step 9200, epoch: 1, batch: 148, loss: 0.89793, speed: 7.62 step/s, lr: 0.0000049177
+global step 9300, epoch: 1, batch: 248, loss: 0.89819, speed: 7.62 step/s, lr: 0.0000048624
+global step 9400, epoch: 1, batch: 348, loss: 0.89680, speed: 7.62 step/s, lr: 0.0000048072
+global step 9500, epoch: 1, batch: 448, loss: 0.89087, speed: 7.62 step/s, lr: 0.0000047520
+global step 9600, epoch: 1, batch: 548, loss: 0.88751, speed: 7.62 step/s, lr: 0.0000046967
+global step 9700, epoch: 1, batch: 648, loss: 0.88704, speed: 7.62 step/s, lr: 0.0000046415
+global step 9800, epoch: 1, batch: 748, loss: 0.89147, speed: 7.62 step/s, lr: 0.0000045862
+global step 9900, epoch: 1, batch: 848, loss: 0.89203, speed: 7.62 step/s, lr: 0.0000045310
+global step 10000, epoch: 1, batch: 948, loss: 0.89110, speed: 7.62 step/s, lr: 0.0000044757
+global step 10100, epoch: 1, batch: 1048, loss: 0.89028, speed: 7.62 step/s, lr: 0.0000044205
+global step 10200, epoch: 1, batch: 1148, loss: 0.88956, speed: 7.62 step/s, lr: 0.0000043653
+global step 10300, epoch: 1, batch: 1248, loss: 0.88938, speed: 7.60 step/s, lr: 0.0000043100
+global step 10400, epoch: 1, batch: 1348, loss: 0.88957, speed: 7.60 step/s, lr: 0.0000042548
+global step 10500, epoch: 1, batch: 1448, loss: 0.88933, speed: 7.60 step/s, lr: 0.0000041995
+global step 10600, epoch: 1, batch: 1548, loss: 0.88840, speed: 7.60 step/s, lr: 0.0000041443
+global step 10700, epoch: 1, batch: 1648, loss: 0.88818, speed: 7.60 step/s, lr: 0.0000040891
+global step 10800, epoch: 1, batch: 1748, loss: 0.88887, speed: 7.60 step/s, lr: 0.0000040338
+global step 10900, epoch: 1, batch: 1848, loss: 0.88756, speed: 7.61 step/s, lr: 0.0000039786
+global step 11000, epoch: 1, batch: 1948, loss: 0.88843, speed: 7.61 step/s, lr: 0.0000039233
+global step 11100, epoch: 1, batch: 2048, loss: 0.88776, speed: 7.61 step/s, lr: 0.0000038681
+global step 11200, epoch: 1, batch: 2148, loss: 0.88726, speed: 7.61 step/s, lr: 0.0000038128
+global step 11300, epoch: 1, batch: 2248, loss: 0.88644, speed: 7.61 step/s, lr: 0.0000037576
+global step 11400, epoch: 1, batch: 2348, loss: 0.88696, speed: 7.61 step/s, lr: 0.0000037024
+global step 11500, epoch: 1, batch: 2448, loss: 0.88587, speed: 7.61 step/s, lr: 0.0000036471
+global step 11600, epoch: 1, batch: 2548, loss: 0.88621, speed: 7.61 step/s, lr: 0.0000035919
+global step 11700, epoch: 1, batch: 2648, loss: 0.88529, speed: 7.61 step/s, lr: 0.0000035366
+global step 11800, epoch: 1, batch: 2748, loss: 0.88515, speed: 7.61 step/s, lr: 0.0000034814
+global step 11900, epoch: 1, batch: 2848, loss: 0.88363, speed: 7.61 step/s, lr: 0.0000034261
+global step 12000, epoch: 1, batch: 2948, loss: 0.88269, speed: 7.61 step/s, lr: 0.0000033709
+global step 12100, epoch: 1, batch: 3048, loss: 0.88251, speed: 7.61 step/s, lr: 0.0000033157
+global step 12200, epoch: 1, batch: 3148, loss: 0.88323, speed: 7.61 step/s, lr: 0.0000032604
+global step 12300, epoch: 1, batch: 3248, loss: 0.88250, speed: 7.61 step/s, lr: 0.0000032052
+global step 12400, epoch: 1, batch: 3348, loss: 0.88185, speed: 7.61 step/s, lr: 0.0000031499
+global step 12500, epoch: 1, batch: 3448, loss: 0.88205, speed: 7.61 step/s, lr: 0.0000030947
+global step 12600, epoch: 1, batch: 3548, loss: 0.88220, speed: 7.61 step/s, lr: 0.0000030394
+global step 12700, epoch: 1, batch: 3648, loss: 0.88146, speed: 7.61 step/s, lr: 0.0000029842
+global step 12800, epoch: 1, batch: 3748, loss: 0.88163, speed: 7.61 step/s, lr: 0.0000029290
+global step 12900, epoch: 1, batch: 3848, loss: 0.88151, speed: 7.61 step/s, lr: 0.0000028737
+global step 13000, epoch: 1, batch: 3948, loss: 0.88112, speed: 7.61 step/s, lr: 0.0000028185
+global step 13100, epoch: 1, batch: 4048, loss: 0.88078, speed: 7.61 step/s, lr: 0.0000027632
+global step 13200, epoch: 1, batch: 4148, loss: 0.88011, speed: 7.61 step/s, lr: 0.0000027080
+global step 13300, epoch: 1, batch: 4248, loss: 0.88021, speed: 7.61 step/s, lr: 0.0000026527
+global step 13400, epoch: 1, batch: 4348, loss: 0.87964, speed: 7.61 step/s, lr: 0.0000025975
+global step 13500, epoch: 1, batch: 4448, loss: 0.87942, speed: 7.61 step/s, lr: 0.0000025423
+global step 13600, epoch: 1, batch: 4548, loss: 0.87863, speed: 7.61 step/s, lr: 0.0000024870
+global step 13700, epoch: 1, batch: 4648, loss: 0.87828, speed: 7.61 step/s, lr: 0.0000024318
+global step 13800, epoch: 1, batch: 4748, loss: 0.87852, speed: 7.61 step/s, lr: 0.0000023765
+global step 13900, epoch: 1, batch: 4848, loss: 0.87797, speed: 7.61 step/s, lr: 0.0000023213
+global step 14000, epoch: 1, batch: 4948, loss: 0.87807, speed: 7.61 step/s, lr: 0.0000022660
+global step 14100, epoch: 1, batch: 5048, loss: 0.87769, speed: 7.61 step/s, lr: 0.0000022108
+global step 14200, epoch: 1, batch: 5148, loss: 0.87776, speed: 7.61 step/s, lr: 0.0000021556
+global step 14300, epoch: 1, batch: 5248, loss: 0.87772, speed: 7.61 step/s, lr: 0.0000021003
+global step 14400, epoch: 1, batch: 5348, loss: 0.87783, speed: 7.61 step/s, lr: 0.0000020451
+global step 14500, epoch: 1, batch: 5448, loss: 0.87788, speed: 7.61 step/s, lr: 0.0000019898
+global step 14600, epoch: 1, batch: 5548, loss: 0.87778, speed: 7.61 step/s, lr: 0.0000019346
+global step 14700, epoch: 1, batch: 5648, loss: 0.87795, speed: 7.61 step/s, lr: 0.0000018794
+global step 14800, epoch: 1, batch: 5748, loss: 0.87769, speed: 7.61 step/s, lr: 0.0000018241
+global step 14900, epoch: 1, batch: 5848, loss: 0.87759, speed: 7.61 step/s, lr: 0.0000017689
+global step 15000, epoch: 1, batch: 5948, loss: 0.87728, speed: 7.61 step/s, lr: 0.0000017136
+global step 15100, epoch: 1, batch: 6048, loss: 0.87746, speed: 7.61 step/s, lr: 0.0000016584
+global step 15200, epoch: 1, batch: 6148, loss: 0.87745, speed: 7.60 step/s, lr: 0.0000016031
+global step 15300, epoch: 1, batch: 6248, loss: 0.87721, speed: 7.60 step/s, lr: 0.0000015479
+global step 15400, epoch: 1, batch: 6348, loss: 0.87732, speed: 7.60 step/s, lr: 0.0000014927
+global step 15500, epoch: 1, batch: 6448, loss: 0.87736, speed: 7.60 step/s, lr: 0.0000014374
+global step 15600, epoch: 1, batch: 6548, loss: 0.87738, speed: 7.60 step/s, lr: 0.0000013822
+global step 15700, epoch: 1, batch: 6648, loss: 0.87728, speed: 7.60 step/s, lr: 0.0000013269
+global step 15800, epoch: 1, batch: 6748, loss: 0.87717, speed: 7.60 step/s, lr: 0.0000012717
+global step 15900, epoch: 1, batch: 6848, loss: 0.87711, speed: 7.60 step/s, lr: 0.0000012164
+global step 16000, epoch: 1, batch: 6948, loss: 0.87699, speed: 7.60 step/s, lr: 0.0000011612
+global step 16100, epoch: 1, batch: 7048, loss: 0.87677, speed: 7.60 step/s, lr: 0.0000011060
+global step 16200, epoch: 1, batch: 7148, loss: 0.87627, speed: 7.60 step/s, lr: 0.0000010507
+global step 16300, epoch: 1, batch: 7248, loss: 0.87625, speed: 7.60 step/s, lr: 0.0000009955
+global step 16400, epoch: 1, batch: 7348, loss: 0.87651, speed: 7.60 step/s, lr: 0.0000009402
+global step 16500, epoch: 1, batch: 7448, loss: 0.87681, speed: 7.60 step/s, lr: 0.0000008850
+global step 16600, epoch: 1, batch: 7548, loss: 0.87674, speed: 7.60 step/s, lr: 0.0000008297
+global step 16700, epoch: 1, batch: 7648, loss: 0.87645, speed: 7.60 step/s, lr: 0.0000007745
+global step 16800, epoch: 1, batch: 7748, loss: 0.87623, speed: 7.60 step/s, lr: 0.0000007193
+global step 16900, epoch: 1, batch: 7848, loss: 0.87599, speed: 7.60 step/s, lr: 0.0000006640
+global step 17000, epoch: 1, batch: 7948, loss: 0.87566, speed: 7.60 step/s, lr: 0.0000006088
+global step 17100, epoch: 1, batch: 8048, loss: 0.87560, speed: 7.60 step/s, lr: 0.0000005535
+global step 17200, epoch: 1, batch: 8148, loss: 0.87540, speed: 7.60 step/s, lr: 0.0000004983
+global step 17300, epoch: 1, batch: 8248, loss: 0.87518, speed: 7.61 step/s, lr: 0.0000004430
+global step 17400, epoch: 1, batch: 8348, loss: 0.87494, speed: 7.61 step/s, lr: 0.0000003878
+global step 17500, epoch: 1, batch: 8448, loss: 0.87506, speed: 7.61 step/s, lr: 0.0000003326
+global step 17600, epoch: 1, batch: 8548, loss: 0.87516, speed: 7.61 step/s, lr: 0.0000002773
+global step 17700, epoch: 1, batch: 8648, loss: 0.87497, speed: 7.61 step/s, lr: 0.0000002221
+global step 17800, epoch: 1, batch: 8748, loss: 0.87490, speed: 7.61 step/s, lr: 0.0000001668
+global step 17900, epoch: 1, batch: 8848, loss: 0.87473, speed: 7.61 step/s, lr: 0.0000001116
+global step 18000, epoch: 1, batch: 8948, loss: 0.87445, speed: 7.61 step/s, lr: 0.0000000563
+global step 18100, epoch: 1, batch: 9048, loss: 0.87436, speed: 7.61 step/s, lr: 0.0000000011
+Final Pred: 0it [00:00, ?it/s]
+defaultdict(<class 'list'>, {'positive': [array([0.15447551, 0.32351768, 0.23784494, 0.03407432], dtype=float32)], 'negative': [array([0.13004859, 0.20124471, 0.49957907, 0.05266806], dtype=float32)], 'neutral': [array([0.73433447, 0.4859012 , 0.27346438, 0.9608916 ], dtype=float32)]})
+100%|██████████| 2263/2263 [00:56<00:00, 39.81it/s]
+[0.15447551012039185, 0.32351768016815186, 0.23784494400024414, 0.034074317663908005, 0.01856921799480915, 0.03353504091501236, 0.056417662650346756, 0.2947797477245331, 0.34125417470932007, 0.09465491771697998]
+9052
+9052
+100%|██████████| 9052/9052 [00:00<00:00, 822594.30it/s]
+
+Process finished with exit code 0

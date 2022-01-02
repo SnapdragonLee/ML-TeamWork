@@ -32,7 +32,7 @@ Teamwork Code, Opensource with GPLv2 License
 
 ### Evaluation：
 
-**roc_auc_score**
+**Micro-Fscore**
 
 
 
